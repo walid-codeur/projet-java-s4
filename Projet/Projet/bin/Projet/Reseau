@@ -1,0 +1,9 @@
+package projet;
+
+public class OrdinateursFixes(String ip, String passerelle, String masque) {
+	super(ip, passerelle, masque);
+}
+
+public String toString() {
+	return "Ordinateur Fixe est connecté au réseau " + getip() + getmasque() + "et a comme passerelle " + getpasserelle();
+}
