@@ -10,4 +10,5 @@ public class OrdinateursFixes extends PostesClients {
 	// a activer quand on declenche un bouton ou qq chose
 	public String toString() {
 		return "Cet ordinateur fixe a pour ip : " + getip() + " avec le masque suivant : " + getmasque() + ", a pour passerelle : " + getpasserelle();
+	}
 }
