@@ -7,7 +7,6 @@ public class OrdinateursFixes extends PostesClients {
 		super (ip, passerelle, masque);
 	}
 	
-	private String ip;
-	private String passerelle;
-	private String masque;
+	public String toString() {
+		return "Cet ordinateur fixe a pour ip : " + getip() + " avec le masque suivant : " + getmasque() + ", a pour passerelle : " + getpasserelle();
 }
