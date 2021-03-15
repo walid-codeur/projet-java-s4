@@ -7,6 +7,6 @@ public class Câbles {
   }
   public Cable2(int switch, int pc2){
     switch = 1;
-    pc2 = 1;
+    pc2 = 1; 
   }
 }
